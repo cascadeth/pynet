@@ -8,4 +8,4 @@ Each week has a folder containing work and material gathered/presented.
 
 [Course Website](https://pynet.twb-tech.com/free-python-course.html)
 
-[pynet GitHub](https://github.com/ktbyers/pynet)
+[Original Course Material - pynet GitHub](https://github.com/ktbyers/pynet)
