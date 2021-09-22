@@ -102,8 +102,8 @@ From the last line use the string .split() method to obtain the BGP peer IP addr
 Print both local AS number and the BGP peer IP address to the screen.
 
 **CLASS OUTLINE**
-
-1\. Numbers (VIDEO1)
+```
+1. Numbers (VIDEO1)
    A. Creating an integer type  [0:10]
    B. Arithmetic Operators [0:23]
       I. Modulo Operator [0:59]
@@ -196,5 +196,5 @@ Print both local AS number and the BGP peer IP address to the screen.
    D. You decide what characteristics matters [4:07]
    E. Zero errors [5:03]
    F. Integrate with CI [5:16]
-
+```
 *Kirk Byers*
