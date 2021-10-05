@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-import system, platform
+import os, platform
 
 ping_statement = ""
 
 if platform.system() == 'Windows':
     ping_statement = 'ping -n 2 '
-elif: platform.system() == 'Linux':
+elif platform.system() == 'Linux':
     ping_statement = 'ping -c 2 '
 else:
     print("Unsupported environment detected: {}".format(platform.system()))
@@ -35,4 +35,9 @@ for i in range(1,255):
     # to the list
     ip_range.append('.'.join(subnet_id.split('.')[:3]) + '.' + str(i))
 
+for iterator, ip_address in enumerate(ip_range):
+    print("{} ---> {}".format(iterator, ip_address))
+
+for ip in ip_range[2:7]:
+    os.system((ping_statement + ip))
 
